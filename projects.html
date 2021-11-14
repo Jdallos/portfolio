@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web development portfolio projects">
+    <meta name="keywords" content="Web Development projects, HTML, CSS, JavaScript">
+    <meta name="author" content="Josh Dallos">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Yuji+Syuku&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio- Projects</title>
+</head>
+
+<body>
+    <main>
+        <div class="sidenav side-pos">
+            <div id="side-logo">
+                <a href="index.html" class="h-font-2">JD</a>
+            </div>
+            <a href="index.html" title="Home"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
+                    <path fill-rule="evenodd"
+                        d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
+                </svg>
+                <p class="sidenav-description h-font-1">Home</p>
+            </a>
+            <a href="projects.html" title="Projects"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    fill="currentColor" class="bi bi-journal-code side-active" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z" />
+                    <path
+                        d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z" />
+                    <path
+                        d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z" />
+                </svg>
+                <p class="sidenav-description side-long side-active h-font-1">Projects</p>
+            </a>
+            <a href="bio.html" title="Bio"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    fill="currentColor" class="bi bi-file-earmark-person" viewBox="0 0 16 16">
+                    <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                    <path
+                        d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
+                </svg>
+                <p class="sidenav-description h-font-1">Bio</p>
+            </a>
+            <a href="contact.html" title="Contact Me"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                    fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                <p class="sidenav-description side-long h-font-1">Contact</p>
+            </a>
+            <div id="side-socials">
+                <a href="https://github.com/Jdallos" target="_blank" title="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                        height="28" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    </svg></a>
+            </div>
+        </div>
+        <div class="main">
+            <section id="projects-page-gallery">
+                <h1 id="projects-title" class="h-font-1">My Portfolio</h1>
+                <p id="projects-text" class="p-font-1">Read more about my projects and follow the links to see the code
+                    or
+                    visit the live site.
+                </p>
+                <div id="projects-list">
+                    <div id="inspiration" class="projects-list-item">
+                        <h2 class="project-title h-font-2">Inspiration- An API driven activity generator</h2>
+                        <img src="Images/inspiration.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>EJS</li>
+                                <li>Axios</li>
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>A full stack web app, combining API requests
+                                with
+                                attractive front-end styling
+                                with
+                                Javascript<span>&rdquo;</span></p>
+                        </div>
+                        <p class="project-about p-font-1">Inspiration draws upon the power of the "bored API" combined
+                            with a
+                            pleasing UI to deliver an
+                            effective productivity tool. This web application allows the user to request random
+                            activities
+                            or to customise their activity search along various parameters. A pleasing front-end keeps
+                            users
+                            engaged.</p>
+                        <a href="https://github.com/Jdallos/Inspiration/blob/main/README.txt" target="_blank"
+                            class="readme-button">
+                            View Read Me</a>
+                        <a href="https://github.com/Jdallos/Inspiration" target="_blank" class="code-button">
+                            View Code</a>
+                    </div>
+                    <div id="jdallosmusic" class="projects-list-item">
+                        <h2 class="project-title h-font-1">J Dallos Music</h2>
+                        <img src="Images/music1.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>HTML</li>
+                                <li>Bootstrap 5</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>A unique front-end design to reflect the
+                                artists style
+                                and music<span>&rdquo;</span></p>
+                        </div>
+                        <p class="project-about p-font-1"> A this website employs Javascript to give this website a
+                            unique UX.
+                            Encouraging user
+                            interaction
+                            to explore the pages while ensuring an
+                            intuitive UI. The design is simple and spacious, generating interest in key places to
+                            encourage
+                            the user to explore the music available through embedded Spotify players.</p>
+                        <a href="https://jdallos.github.io/Jdallosmusic/" target="_blank" class="visit-button">Visit
+                            site</a>
+                        <a href="https://github.com/Jdallos/Jdallosmusic/blob/main/README.txt" target="_blank"
+                            class="readme-button">View
+                            Read Me</a>
+                        <a href="https://github.com/Jdallos/Jdallosmusic" target="_blank" class="code-button"> View
+                            Code</a>
+                    </div>
+                    <div id="fcc" class="projects-list-item">
+                        <h2 class="project-title h-font-2">Free Code Camp- Javascript algorithms certification demo</h2>
+                        <img src="Images/FCC.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>Javascript</li>
+                                <li>Bootstrap 5</li>
+                                <li>HTML</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>Styled entirely using Bootstrap
+                                5<span>&rdquo;</span>
+                            </p>
+                        </div>
+                        <p class="project-about p-font-1"> This webpage is a demonstration of some of my Javascript
+                            algorithm
+                            scripting ability.
+                            Showcasing
+                            the algorithms I built in order to obtain the Free Code Camp Javascript algorithm scripting
+                            and
+                            data structures 300 hours certification. Contains working demos of a palindrome checker, US
+                            phone
+                            number validator, Roman numeral converter, Caesar's Cipher encryption and more. </p>
+                        <a href="https://jdallos.github.io/fccjavascript/" class="visit-button">Visit
+                            site</a>
+                        <a href="https://github.com/Jdallos/fccjavascript/blob/main/README.md"
+                            class="readme-button">View Read Me</a>
+                        <a href="https://github.com/Jdallos/fccjavascript" class="code-button">View
+                            Code</a>
+                    </div>
+                    <div id="humble" class="projects-list-item">
+                        <h2 class="project-title h-font-1">The Humble Pig- A functional and stylish restaurant wordpress
+                            site
+                        </h2>
+                        <img src="Images/humble.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>Bloxy builder</li>
+                                <li>Contact Form 7</li>
+                                <li>5* reservation bookings</li>
+                                <li>Custom CSS</li>
+                                <li>Various plug-ins</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>Showcasing my design skills and wordpress
+                                development
+                                ability<span>&rdquo;</span></p>
+                        </div>
+                        <p class="project-about p-font-1"> A modern
+                            design matches the sleek image of The Humble Pig restaurant. Utilizing the
+                            simplicity of wordpress this website has working contact forms, mailing list sign ups and
+                            table
+                            reservation bookings.</p>
+                        <a href="http://www.mitest.co.uk/jdweb/jdrt_wp/" target="_blank" class="visit-button">Visit
+                            site</a>
+                    </div>
+                    <div id="blog" class="projects-list-item">
+                        <h2 class="project-title h-font-2">J Dallos- learning to code blog</h2>
+                        <img src="Images/Blog.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>My first website!<span>&rdquo;</span></p>
+                        </div>
+                        <p class="project-about p-font-1"> A classic blog website created entirely using HTML & CSS.
+                            Contains
+                            several well-written
+                            articles
+                            tracking my experience learning to code!</p>
+                        <a href="https://jdallos.github.io/" target="_blank" class="visit-button">Visit
+                            site</a>
+                        <a href="https://github.com/Jdallos/Jdallos.github.io" target="_blank" class="code-button">View
+                            Code</a>
+                    </div>
+                    <div id="ultv" class="projects-list-item">
+                        <h2 class="project-title h-font-1">Ultimate Vacation- wordpress clone</h2>
+                        <img src="Images/UV.png" alt="">
+                        <h3 class="technology h-font-1">Technologies:</h3>
+                        <div class="h-font-1">
+                            <ul>
+                                <li>Wordpress</li>
+                                <li>Elementor</li>
+                                <li>Contact Form 7</li>
+                                <li>Various plug-ins</li>
+                            </ul>
+                        </div>
+                        <div class="quote-box">
+                            <p class="quote h-font-1"><span>&ldquo;</span>A wordpress website clone<span>&rdquo;</span>
+                            </p>
+                        </div>
+                        <p class="project-about p-font-1"> A clone of a popular wordpress site. Attention to detail
+                            allowed me to
+                            recreate this site
+                            with a
+                            high degree of accuracy.</p>
+                        <a href="http://www.mitest.co.uk/jdweb/jduv_wp/" target="_blank" class="visit-button">Visit
+                            site</a>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <h3 class="h-font-2">Like what you see?</h3>
+                <div class="get-in-effect"><a href="contact.html" class="contact-button get-in">Get in touch</a></div>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p class="h-font-2">Josh Dallos Portfolio Site</p>
+    </footer>
+
+</body>
+
+</html>
