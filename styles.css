@@ -194,7 +194,7 @@ main{
     top: 0; 
     left: 0;
     background-color: black; 
-    /* overflow-x: hidden; Disable horizontal scroll- may need? but produces a grey border at certain sizes.... */
+    overflow-x: hidden; /*Disable horizontal scroll- may need? but produces a grey border at certain sizes.... */
     padding-left: 1vw;
     padding-right:1vw;
     padding-top: 20px;
@@ -1090,7 +1090,7 @@ aside button{
     }
     #divider{
         position:relative;
-        top:2px;
+        top:3px;
     }
     #article-img{
         height: 50vh;
