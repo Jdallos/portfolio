@@ -1088,6 +1088,10 @@ aside button{
     .main {
         margin-left: 10vw; 
     }
+    #divider{
+        position:relative;
+        top:2px;
+    }
     #article-img{
         height: 50vh;
     }
@@ -1108,6 +1112,15 @@ aside button{
         position:relative;
         top:20px;
         margin:30%;
+    }
+}
+
+@media(max-width:460px){
+    .sidenav{
+        width:10vw;
+    }
+     .main {
+        margin-left: 12vw; 
     }
 }
 
@@ -1132,12 +1145,8 @@ aside button{
     #first-words{
         font-size:1.1em;
     }
-    .sidenav{
-        width:10vw;
-    }
-    .main {
-        margin-left: 12vw; 
-    }
+    
+   
     #intro-title{
         margin-left:-8vw;
         font-size:2em;
