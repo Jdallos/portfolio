@@ -991,7 +991,7 @@ aside button{
         margin-left: 8vw; 
     }
 
-    #article-cols{
+    .article-cols{
         flex-wrap: wrap;
         width:100%;
     }
@@ -1030,6 +1030,9 @@ aside button{
     .project-about{
         width:80%;
         font-size:1.4em;
+    }
+    .readme-button, .code-button, .visit-button{
+        margin:3%;
     }
     #article-text2{
         flex: 0 0 90%;
@@ -1073,8 +1076,8 @@ aside button{
     .nav-item{
         font-size: 1.2em;
     }
-    #landing-content .portfolio-button{
-        margin-top: 2%;
+    #landing-content .portfolio-button, #landing-content .contact-button{      
+        margin:3%;
     }
     .sidenav{
         width:8vw;
@@ -1097,6 +1100,11 @@ aside button{
     }
     .projects-list-item{
         margin-top:10%;
+    }
+    #jdallosmusic .code-button, #fcc .code-button{
+        position:relative;
+        top:20px;
+        margin:30%;
     }
 }
 
