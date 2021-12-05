@@ -1,8 +1,13 @@
 body, html{
     height: 100%;
     margin: 0;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
+
+html{
+    overflow: hidden;
+}
+
 
 #landing-site{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/landing-background.jpg');
@@ -10,17 +15,31 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow:scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /*Firefox*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+#landing-site::-webkit-scrollbar {
+    display: none;
+}
+
+#land-buttons-container{
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
 #landing-content{
     text-align: center;
-    padding: 2% 5%;
+    padding: 1% 5%;
 }
 
 #nav{
     display:flex;
     justify-content: space-between;
     margin: 0 3%;
+    margin-bottom:-2%;
 }
 
 #logo{
@@ -198,8 +217,13 @@ main{
     padding-left: 1vw;
     padding-right:1vw;
     padding-top: 20px;
-
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
+
+  .sidenav::-webkit-scrollbar {
+    display: none;
+}
   
   .sidenav a {
     padding: 15% 2%;
@@ -251,7 +275,7 @@ main{
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom: 0.2rem solid blueviolet;
-    margin-top:-102.8vh;
+    margin-top:-102.5vh;
 }
 
 #divider2{
@@ -420,7 +444,6 @@ main{
     border-right: 0.1rem solid black;
     height: 83vh;
     margin:0;
-
  }
 
  #form-col{
@@ -956,6 +979,10 @@ aside button{
         width:100%;
         margin-left:-5vw;
     }
+    #land-buttons-container{
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
 }
 @media(max-width:700px){
     #nav-list{
@@ -1108,10 +1135,14 @@ aside button{
     .projects-list-item{
         margin-top:10%;
     }
-    #jdallosmusic .code-button, #fcc .code-button{
+    #jdallosmusic .code-button, #fcc .code-button, #score .code-button{
         position:relative;
         top:20px;
         margin:30%;
+    }
+    
+    #nav{
+        margin-bottom:0;
     }
 }
 
@@ -1122,11 +1153,20 @@ aside button{
      .main {
         margin-left: 12vw; 
     }
+    #divider{
+        margin-top:-103.2vh;
+    }
+    #projects-gallery img{
+        height:30vh;
+    }
 }
 
 @media(max-width:430px){
     #main-heading{
         margin-top:-10%;
+    }
+    #fade-container{
+        margin-bottom:10%;
     }
     #fade-container :nth-child(1){
         font-size:1.3em;
@@ -1156,5 +1196,17 @@ aside button{
     }
     .certs-list{
         margin-left:-9vw;
+    }
+}
+
+@media(max-width:370px){
+    .sidenav{
+        width:12vw;
+    }
+     .main {
+        margin-left: 14vw; 
+    }
+    #info-col p{
+        font-size: 1.2em;
     }
 }
