@@ -1135,7 +1135,7 @@ aside button{
     .projects-list-item{
         margin-top:10%;
     }
-    #jdallosmusic .code-button, #fcc .code-button, #score .code-button{
+    #jdallosmusic .code-button, #fcc .code-button, #score .code-button, #flagfinder .code-button{
         position:relative;
         top:20px;
         margin:30%;
